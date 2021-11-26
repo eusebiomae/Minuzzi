@@ -1,0 +1,37 @@
+.radio-group {
+	display: flex;
+	float: right;
+}
+.radio-group input {
+  display: none;
+}
+
+.radio-group label {
+  padding: 10px 15px;
+  color: inherit;
+  background: #fff;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15), 0 1px 0 0 rgba(0,0,0,0.05);
+  font-size: 12px;
+  line-height: 1;
+}
+.radio-group label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+.radio-group label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+.radio-group label:not(:last-child) {
+  margin-right: -1px;
+}
+
+.radio-group input:checked + label {
+  position: relative;
+  z-index: 3;
+/*   box-shadow: 0 5px 25px -3px rgba(173,106,54,0.25); */
+  box-shadow: none;
+	background:#21b9bb;
+	color: white !important;
+}
+.radio-group input:not(:checked) + label {
+  transition: background 0.15s;
+}

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Demo CSS
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
+ */
+
+.fileupload a {
+  color: orange;
+  text-decoration: none;
+}
+.fileupload img {
+  border: 0;
+  vertical-align: middle;
+}
+.fileupload h1 {
+  line-height: 1em;
+}
+.fileupload blockquote {
+  padding: 0 0 0 15px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eee;
+}
+.fileupload table {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.fileupload .fileupload-progress {
+	margin: 10px 0;
+}
+.fileupload .fileupload-progress .progress-extended {
+	margin-top: 5px;
+}
+.fileupload .error {
+  color: red;
+}
+
+.fileupload .size {
+  margin: 0px;
+}
+
+.fileupload button {
+  border-radius: 5px;
+
+}
+
+@media (min-width: 481px) {
+  .fileupload .navigation {
+    list-style: none;
+    padding: 0;
+  }
+  .fileupload .navigation li {
+    display: inline-block;
+  }
+  .fileupload .navigation li:not(:first-child):before {
+    content: "| ";
+  }
+}
+
+.fileupload .files>tr:nth-child(odd) {
+  background: #eee;
+}
+
+.fileupload .preview img {
+  max-width: 80px;
+}

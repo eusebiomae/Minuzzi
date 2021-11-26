@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "scripts": {
+        "prod": "gulp --production",
+        "dev": "gulp watch"
+    },
+    "devDependencies": {
+        "bootstrap": "^4.0.0",
+        "gulp": "^3.9.1",
+        "jquery": "^3.2",
+        "laravel-elixir": "^6.0.0-9",
+        "laravel-elixir-webpack-official": "^1.0.2",
+        "lodash": "^4.14.0",
+        "popper.js": "^1.12",
+        "sass": "^1.15.2",
+        "sass-loader": "^8.0.0"
+    },
+    "dependencies": {
+        "flag-icon-css": "^4.1.6"
+    }
+}

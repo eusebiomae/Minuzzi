@@ -1,0 +1,16 @@
+#docker-compose run --entrypoint bash gigapixel-site_preno
+version: '3.6'
+services:
+  gigapixel-site_preno:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /var/www
+    container_name: gigaPixel-site_preno
+    ports:
+      - 8000:8000
+    # expose:
+    #   - 8000
+    # volumes:
+    #   - ./:/var/www
+    command: [ "php", "artisan", "serve" ]

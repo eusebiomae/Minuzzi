@@ -1,0 +1,8 @@
+{
+    "editor.tabSize": 2,
+    "editor.insertSpaces": false,
+    "editor.tabCompletion": "on",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.autoIndent": "full",
+}

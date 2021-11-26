@@ -1,0 +1,9 @@
+/vendor/
+/node_modules/
+/storage/logs
+
+/composer.lock
+
+.env
+
+/bootstrap/cache/config.php
