@@ -43,7 +43,7 @@ Route::get('faq', 'Site\minuzzi\FaqController@index')->middleware(['injectFlgPag
 
 Route::get('support', 'Site\minuzzi\SupportController@index')->middleware(['injectFlgPage:support']);
 
-Route::get('manual', 'Site\minuzzi\ManualController@index')->middleware(['injectFlgPage:manual']);
+Route::get('manual', 'Site\minuzzi\ManualController@index')->name('manual')->middleware(['injectFlgPage:manual']);
 
 Route::get('term', 'Site\minuzzi\TermController@index')->name('term')->middleware(['injectFlgPage:term']);
 

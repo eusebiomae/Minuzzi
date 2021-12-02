@@ -28,7 +28,7 @@ class BlogController extends Controller {
 
         $pageComponents = ContentPageModel::getByComponent($flgPage);
 
-				$blogs = BlogModel::get();
+				$blogs = BlogModel::with(['blogCategory' => function($query){$query->select('id', 'description_pt');}])->get();
 
 				$events = BlogModel::get();
 

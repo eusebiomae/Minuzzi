@@ -3,7 +3,7 @@
 return [
 
     'home'                  => 'Home',
-    'company'              => 'Empesa',
+    'company'              => 'Empresa',
     'products'               => 'Produtos',
     'support'              => 'Suporte',
     'blog'                  => 'Blog',
@@ -13,7 +13,7 @@ return [
     'privacy'          => 'Política de Qualidade',
     'certified'              => 'Certificado ISO 9001-2015',
 
-    'guaranty'           => 'Garamtia',
+    'guaranty'           => 'Garantia',
     'manuals'   => 'Manuais',
     'sac'       => 'Canais de Atendimento',
     'faq'         => 'Perguntas Frequentes',
@@ -25,7 +25,7 @@ return [
 
     'productsHome'               => 'Nossos Produtos',
     'productsHomeSee'               => 'Ver Todos',
-    'productsDetailsButton'               => 'Detalhes do Produto',
+    'productsDetailsButton'               => 'Ver Detalhes',
     'productsDetailsButtonBudget'               => 'Fazer Orçamento',
     'productsKnow'               => 'Conheça Nossos Produtos',
 
